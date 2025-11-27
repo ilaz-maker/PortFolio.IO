@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio – Ilayda Ozdemir</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="lang-switch">
+    <a href="index-en.html">EN</a> | <a href="index.html">FR</a>
+  </div>
+
+  <h1 class="logo">Ilayda Ozdemir</h1>
+
+  <nav>
+    <button class="tab-btn active" data-target="home">Home</button>
+    <button class="tab-btn" data-target="projects">Projects</button>
+    <button class="tab-btn" data-target="contact">Contact</button>
+  </nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="section visible">
+  <div class="hero">
+    <h2 class="typed">Welcome to my portfolio!</h2>
+    <p>My name is Ilayda and I’m a 2nd-year student in MIASHS, specializing in Computer Science, at University Paris 1.<br>
+       I love coding, data analysis, and creating digital projects. Turning ideas into tangible results is my thing!</p>
+
+    <div class="hero-buttons">
+      <a href="MesCV/cv-en.html" class="btn">Check out my CV</a>
+      <a href="about/about-en.html" class="btn">Learn more about me</a>
+      <a class="btn tab-btn" data-target="projects">See my projects</a>
+      <a class="btn tab-btn" data-target="contact">Get in touch</a>
+    </div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section hidden">
+  <h2>My recent projects</h2>
+
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <img src="img/snake.png" alt="Snake Game">
+      <h3>Snake Game</h3>
+      <p>A fun interactive game I coded in HTML, CSS, and JavaScript. Great for learning coding logic while having fun.</p>
+      <a href="projets/snake-js/snake.html" class="project-btn">See project</a>
+    </div>
+
+    <div class="project-card">
+      <img src="img/calculator.png" alt="Calculator">
+      <h3>Calculator</h3>
+      <p>A simple, modern interface, fully responsive, perfect for daily calculations.</p>
+      <a href="projets/calculator-js/calculator.html" class="project-btn">Try it</a>
+    </div>
+
+    <div class="project-card">
+      <img src="img/Moy.png" alt="Average Calculator">
+      <h3>Average Calculator</h3>
+      <p>A practical tool to easily calculate averages with grades and coefficients. Simple and efficient!</p>
+      <a href="projets/moyenneg-js/moyg.html" class="project-btn">Test it now</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section hidden">
+  <h2>Contact</h2>
+  <p>E-mail : ozdemirilayda255@gmail.com
+    <br>
+    <br>
+    Phone : +33 6 20 46 24 70
+    <br>
+    <br>
+    Linkedin : <a href="https://www.linkedin.com/in/ilayda-ozdemir-507b2523b/" target="_blank">Ilayda Ozdemir</a>
+  </p>
+</section>
+
+<footer>
+  <p>Ilayda Ozdemir – Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

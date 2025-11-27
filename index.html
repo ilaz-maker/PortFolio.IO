@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio – Ilayda Ozdemir</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="lang-switch">
+    <a href="index.html">FR</a> | <a href="index-en.html">EN</a>
+  </div>
+
+  <h1 class="logo">Ilayda Ozdemir</h1>
+
+  <nav>
+    <button class="tab-btn active" data-target="home">Accueil</button>
+    <button class="tab-btn" data-target="projects">Projets</button>
+    <button class="tab-btn" data-target="contact">Contact</button>
+  </nav>
+</header>
+
+<!-- HOME -->
+<section id="home" class="section visible">
+  <div class="hero">
+    <h2 class="typed">Bienvenue sur mon portfolio !</h2>
+    <p>Je m'appelle Ilayda et je suis étudiante en L2 MIASHS, renforcement Informatique, à l’Université Paris 1.<br>
+       Passionnée par la programmation, l’analyse de données et la création de projets numériques, j’aime transformer les idées en réalisations concrètes.</p>
+
+    <div class="hero-buttons">
+      <a href="MesCV/cv.html" class="btn">Découvrir mon CV</a>
+      <a href="about/about.html" class="btn">En savoir plus sur moi</a>
+      <a class="btn tab-btn" data-target="projects">Voir mes projets</a>
+      <a class="btn tab-btn" data-target="contact">Me contacter</a>
+    </div>
+  </div>
+</section>
+
+<!-- PROJETS -->
+<section id="projects" class="section hidden">
+  <h2>Mes projets récents</h2>
+
+  <div class="projects-grid">
+
+    <div class="project-card">
+      <img src="img/snake.png" alt="Jeu du serpent">
+      <h3>Jeu du Serpent</h3>
+      <p>Un petit jeu interactif que j’ai codé en HTML, CSS et JavaScript. Idéal pour s’amuser et comprendre la logique du code.</p>
+      <a href="projets/snake-js/snake.html" class="project-btn">Voir le projet</a>
+    </div>
+
+    <div class="project-card">
+      <img src="img/calculator.png" alt="Calculatrice">
+      <h3>Calculatrice</h3>
+      <p>Une interface simple et moderne, responsive sur tous les écrans, pour faciliter les calculs quotidiens.</p>
+      <a href="projets/calculator-js/calculator.html" class="project-btn">Tester la calculatrice</a>
+    </div>
+
+    <div class="project-card">
+      <img src="img/Moy.png" alt="Calculateur de Moyenne">
+      <h3>Calculateur de Moyenne</h3>
+      <p>Un outil pratique pour calculer facilement les moyennes avec les notes et coefficients. Simple et efficace !</p>
+      <a href="projets/moyenneg-js/moyg.html" class="project-btn">Essayer maintenant</a>
+    </div>
+
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section hidden">
+  <h2>Contact</h2>
+  <p>E-mail : ozdemirilayda255@gmail.com
+    <br>
+    <br>
+    Télephone : +33 6 20 46 24 70
+    <br>
+    <br>
+    Linkedin : <a href="https://www.linkedin.com/in/ilayda-ozdemir-507b2523b/" target="_blank">Ilayda Ozdemir</a>
+  </p>
+</section>
+
+<footer>
+  <p>Ilayda Ozdemir - Portfolio</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Calculateur de Moyenne Générale</title>
+    <link rel="stylesheet" href="moyg.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Calculateur de Moyenne Générale</h2>
+
+    <label for="nbMatieres">Nombre de matières :</label>
+    <input type="number" id="nbMatieres" min="1" >
+
+    <!-- bouton de génération : bien précisé type="button" -->
+    <button id="generateBtn" type="button">Valider</button>
+
+    <!-- formulaire où on injecte les matières -->
+    <form id="formMatieres" onsubmit="return false;"></form>
+
+    <div id="resultat"></div>
+    <div id="erreur" role="alert" aria-live="polite"></div>
+</div>
+
+<script src="moyg.js"></script>
+</body>
+</html>
